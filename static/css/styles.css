@@ -1,0 +1,96 @@
+body{
+    background-image: url('static/img/home-page.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%; height:400%;
+    font-family: 'Gluten', cursive;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover{
+    font-size: 70px;
+    color: black;
+}
+
+p{
+    font-family: 'Gluten', cursive;
+    margin: 20px 35px 40px 50px;
+    padding: 5;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+button{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    position:absolute;
+
+}
+
+.my_form{
+    margin: 50px 50px 50px 50px;
+}
+
+.home-page{
+    width:100%;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content:center;
+
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Gluten', cursive;
+    margin-top: 5px;
+    position: relative;
+
+  transform: translateX(-28%) rotate(-5deg);
+  transform-origin: right; color:blue;position:fixed;"
+    }
+
+h2{
+    font-family: 'Gluten', cursive;
+}
+
+a{
+    text-decoration:none !important;
+}
+
+.balloons-img{
+    width:100%;
+    height: 15%;
+
+}
+
+.people-img{
+    width:100%;
+    height:10%;
+}
+
+.pumpkin_img{
+    width:100%;
+    height:10%;
+}
+
+.monsters-img{
+    width:100%;
+    height:10%;
+}

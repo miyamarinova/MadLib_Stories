@@ -1,0 +1,177 @@
+{% include 'header.html' %}
+
+<body style="background-image: url('static/img/home-page.svg'); background-size: cover; background-repeat: no-repeat;width:100%; height:400%">
+<div >
+
+</div>
+<div class="row">
+<div class="col">
+    <h2 style="margin:50px 50px 50px 50px;">MadLibs 'About Me'</h2>
+
+    <form name="about_me" method="post" action="/mystory" class="my_form">
+        <label for="food">Food:</label>
+        <input type="text" id="food" name="food"><br>
+
+        <label for="job">Profession/Job:</label>
+        <input type="text" id="job" name="job"><br>
+
+        <label for="adj">Adjective:</label>
+        <input type="text" id="adj" name="adj"><br>
+
+        <label for="phrase">Phrase/Lyrics/Saying:</label>
+        <input type="text" id="phrase" name="phrase"><br>
+
+        <label for="animal">Animal:</label>
+        <input type="text" id="animal" name="animal"><br>
+
+        <label for="verb">Verb:</label>
+        <input type="text" id="verb" name="verb"><br>
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place"><br>
+
+        <label for="celebrity">Celebrity(or just a name):</label>
+        <input type="text" id="celebrity" name="celebrity"><br>
+
+        <label for="buy">Something you would buy:</label>
+        <input type="text" id="buy" name="buy"><br>
+
+        <label for="things">Things (plural):</label>
+        <input type="text" id="things" name="things"><br>
+
+        <input type="submit" value="Make My Story">
+
+</form>
+</div>
+<div class="col">
+    <h2 style="margin:50px 50px 50px 50px;">MadLibs 'Balloon Animal'</h2>
+    <form name="baloon" method="post" action="/colorballoon" class="my_form">
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color"><br>
+
+        <label for="things">Things (plural):</label>
+        <input type="text" id="things2" name="things2"><br>
+
+        <label for="adj">Adjective:</label>
+        <input type="text" id="adj2" name="adj2"><br>
+
+        <label for="phrase">Phrase/Lyrics/Saying:</label>
+        <input type="text" id="phrase2" name="phrase2"><br>
+
+        <label for="word">Silly Word:</label>
+        <input type="text" id="word" name="word"><br>
+
+        <label for="verb">Verb (ending in “ing”):</label>
+        <input type="text" id="verb2" name="verb2"><br>
+
+        <label for="place">Place:</label>
+        <input type="text" id="place2" name="place2"><br>
+
+        <label for="person">Person:</label>
+        <input type="text" id="person" name="person"><br>
+
+        <label for="things">Things (plural):</label>
+        <input type="text" id="things3" name="things3"><br>
+
+        <label for="animal">Animal</label>
+        <input type="text" id="animal2" name="animal2"><br>
+
+        <input type="submit" value="Make My Story">
+
+</form>
+</div>
+    </div>
+
+<div class="row">
+    <div class="col">
+        <h2 style="margin:50px 50px 50px 50px;">MadLibs 'Aliens'</h2>
+        <form name="aliens" method="post" action="/aliens" class="my_form">
+
+        <label>Adjective:</label>
+        <input type="text" name="adj"><br>
+
+        <label>Phrase:</label>
+        <input type="text" name="phrase"><br>
+
+        <label>Silly Word:</label>
+        <input type="text" name="silly"><br>
+
+        <label>Verb:</label>
+        <input type="text" name="verb"><br>
+
+         <label>Thing:</label>
+        <input type="text" name="thing"><br>
+
+        <label>A Game:</label>
+        <input type="text" name="game"><br>
+
+        <label>Food:</label>
+        <input type="text" name="food"><br>
+
+        <label>Person:</label>
+        <input type="text" name="person1"><br>
+
+        <label>Animals(plural):</label>
+        <input type="text" name="animals"><br>
+
+        <label>Person:</label>
+        <input type="text" name="person2"><br>
+
+        <input type="submit" value="Make My Story">
+    </form>
+
+    </div>
+
+    <div class="col">
+        <h2 style="margin:50px 50px 50px 50px;">MadLibs 'Halloween'</h2>
+    <form name="baloon" method="post" action="/halloween" class="my_form">
+
+        <label>A Scary Thing:</label>
+        <input type="text" name="noun"><br>
+
+        <label >Adjective:</label>
+        <input type="text" name="adj1"><br>
+
+        <label>Number:</label>
+        <input type="text" name="num"><br>
+
+        <label>Verb:</label>
+        <input type="text" name="verb1"><br>
+
+         <label>Person:</label>
+        <input type="text" name="person"><br>
+
+        <label>Food (plural):</label>
+        <input type="text" name="foods"><br>
+
+        <label>Adjective:</label>
+        <input type="text" name="adj2"><br>
+
+        <label>A Monster:</label>
+        <input type="text" name="monster"><br>
+
+        <label>Animal:</label>
+        <input type="text" name="animal1"><br>
+
+        <label>Thing:</label>
+        <input type="text" name="thing"><br>
+
+
+
+        <input type="submit" value="Make My Story">
+    </form>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
